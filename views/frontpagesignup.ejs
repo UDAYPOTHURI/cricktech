@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    
+    <!-- css stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\frontpagesignup.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+   <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container login-container">
+        <div class="CRICK_TECH"><a href="/" class="CRICK_TECHLINK">CRICK_TECH</a></div>
+        <div class="row">
+          <div class="col col-social">
+            <a href="/auth/facebook" role="button" style="color: white;" class="btn btn-primary btn-lg button-social submit-button">Sign Up with Facebook <i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-social">
+            <a href="/auth/google" role="button" class="btn btn-danger btn-lg button-social submit-button">Sign Up with Google <i class="fab fa-google"></i></a>
+          </div>
+        </div>
+        <div class="or">OR</div>
+        <form action="/signup" method="post">
+            <div class="form-group">
+                <label for="exampleInputName1">Name</label>
+                <input type="text" class="form-control box-change" id="exampleInputName1" placeholder="Enter Name" name="name">
+            </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control box-change" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="username">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control box-change" id="exampleInputPassword1" placeholder="Atleast 6 characters" name="password">
+            <!-- <small id="emailHelp" class="form-text text-muted">Passwords must be at least 6 characters.</small> -->
+          </div>
+          <!-- <div class="form-group">
+            <label for="exampleInputPassword1">Re-enter Password</label>
+            <input type="password" class="form-control box-change" id="exampleInputPassword1" placeholder="Re-enter Password">
+          </div> -->
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input checkbox1" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">By creating an account, you agree to CRICK_TECH's Conditions of Use and Privacy Notice.</label>
+          </div>
+          <button type="submit" class="btn btn-primary submit-button">Sign Up</button>
+        </form>
+        <div class="forgot">Already have an account?<a href="/login"> Log In</a></div>
+        <div class="copyright">© Copyright 2021 CRICK_TECH</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.CRICK_TECH {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.Login {
+    color: black;
+    font-weight: bold;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    color: black; */
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 1.5rem;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.Signup {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.top-container{
+    width: 100%;
+    height: 1015px;
+    background-image: url(Frame-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #ffffff;
+    padding-top: 247px;
+    padding-bottom: 247px;
+    margin-bottom: 0px;
+}
+
+
+.image{
+    width: 100%;
+    height: 590px;
+    background-image: url(Frame-61.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.background-color{
+    background-image: linear-gradient(to right, rgba(196,196,196,0.9), rgba(0,0,0,1));
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+.hello{
+    margin-left: 0px;
+    margin-right: 0px;
+    height: auto;
+}
+
+body{
+    height: auto;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.live{
+    font-weight: bold;
+    /* font-size: 5rem; */
+    color: greenyellow;
+}
